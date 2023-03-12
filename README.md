@@ -8,7 +8,7 @@ This was built with laravel v10.3.3 and PHP v8.2.0.
 
 While this project does not use a database, an empty dev database was created to satisfy the laravel requirement of a database call when making a post call on form submission.
 
-With composer installed, within the project directory the standard launch command of php artisan serve should launch the project. Migration may be necessary as well.
+With composer installed, within the project directory the standard launch command of php artisan serve should launch the project. Migration may be necessary as well as creation of the database dev.
 
 ## Design Approach 
 My approach was primarily to demonstrate my capabilities of being able to develop in a PHP environment in an organized way. I added bootstrap to provide a modern look and feel. 
