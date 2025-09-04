@@ -1,4 +1,4 @@
-# 🧾 PHP Form Validation Demo
+# PHP Form Validation Demo
 
 ## General
 
@@ -11,16 +11,16 @@ This project demonstrates a basic, server-side form handling system built with P
 
 ### Key Features
 
-- 🛡️ **Robust server-side validation** using PHP and Laravel validation tools  
-- 🔁 **Form repopulation on validation failure**, except for the password field which remains blank for security  
-- 📄 **Successful submissions are logged** using Monolog  
-- 🧰 **Composer-managed dependencies** for clean project organization  
-- 🔧 **Object-based data source** in place of a database  
-- 🎨 **Bootstrap styling** for a modern UI
+- **Robust server-side validation** using PHP and Laravel validation tools  
+- **Form repopulation on validation failure**, except for the password field which remains blank for security  
+- **Successful submissions are logged** using Monolog  
+- **Composer-managed dependencies** for clean project organization  
+- **Object-based data source** in place of a database  
+- **Bootstrap styling** for a modern UI
 
 ---
 
-## 🛠️ Setup Instructions
+## Setup Instructions
 
 This project was built using **Laravel v10.3.3** and **PHP v8.2.0**.
 
@@ -37,12 +37,12 @@ This project was built using **Laravel v10.3.3** and **PHP v8.2.0**.
    ```bash
    php artisan serve
 
-## 🧩 Design Considerations
+## Design Considerations
 
 The focus of this project was to demonstrate clean, structured development in a PHP environment. Rather than using client-side validation, all validation is handled on the server to reinforce best practices for secure data handling.
 
 Styling is kept lightweight with Bootstrap for a responsive and user-friendly interface. Logging is handled through Monolog, integrated via Composer, to persist successful submissions in a clean, readable format.
 
-## 🧪 Challenges
+## Challenges
 
 One challenge encountered was with Laravel's Validator::make() behavior—it was not displaying validation errors on the form as expected. Due to time constraints, a workaround was implemented that logs all submissions (regardless of success or failure). While not ideal, this ensured the logging system remained functional and testable.
